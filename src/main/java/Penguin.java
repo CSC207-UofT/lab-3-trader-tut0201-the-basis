@@ -1,7 +1,7 @@
 public class Penguin implements Tradable {
 
     @Override
-    public int getPrice() {
+    public double getPrice() {
         return 15;
     }
 
