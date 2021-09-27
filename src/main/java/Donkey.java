@@ -1,5 +1,22 @@
 public class Donkey implements Drivable, Domesticatable, Tradable{
-    private int maxSpeed;
+    private int maxSpeed = 10;
+    private String[] children = {};
+    private boolean reproductive = true;
+    private int numberOfChildren = 1;
+
+    public void reproduce(Donkey other){
+        if (this.reproductive) {
+            children[this.numberOfChildren] = "achraf " + this.numberOfChildren;
+            other.children[other.numberOfChildren] = "achraf " + other.numberOfChildren;
+            this.numberOfChildren++;
+        }
+    }
+    public void setReproductive(boolean b){
+        this.reproductive = b;
+    }
+    public int getNumberOfChildren(){
+        return this.numberOfChildren;
+    }
 
     @Override
     public String sound() {
