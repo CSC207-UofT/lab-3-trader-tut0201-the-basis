@@ -24,3 +24,4 @@ public class Donkey implements Drivable, Domesticatable, Tradable{
         return 0;
     }
 }
+    }
