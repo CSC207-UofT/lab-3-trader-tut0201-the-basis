@@ -39,7 +39,7 @@ public class Gorilla implements Drivable, Domesticatable, Tradable {
     public String similarity(String person) {
         String k = "";
         if (Objects.equals(person, "black")){
-            k = "yes" + person + " people are similarity to Gorillas"
+            k = "yes" + person + " people are similarity to Gorillas";
         }
         return k;
 
