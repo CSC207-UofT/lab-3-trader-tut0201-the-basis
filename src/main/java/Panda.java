@@ -1,4 +1,4 @@
-public class Panda implements Drivable, Domesticatable, Tradable{
+public class Panda implements Drivable, Domesticatable, Tradable {
 
     @Override
     public String sound() {

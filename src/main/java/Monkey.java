@@ -1,5 +1,7 @@
 public class Monkey implements Domesticatable, Tradable {
 
+    private boolean True;
+
     @Override
     private String sound() {
         return "OOh OOh Ahh Ahh";
@@ -9,4 +11,9 @@ public class Monkey implements Domesticatable, Tradable {
     public int getPrice() {
         return 100;
     }
+
+    public boolean canClimb() {
+        return True;
+    }
+
 }
