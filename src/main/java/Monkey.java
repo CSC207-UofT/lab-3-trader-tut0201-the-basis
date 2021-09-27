@@ -1,12 +1,19 @@
 public class Monkey implements Domesticatable, Tradable {
 
+    private boolean True;
+
     @Override
-    public String sound() {
-        return null;
+    private String sound() {
+        return "OOh OOh Ahh Ahh";
     }
 
     @Override
     public int getPrice() {
-        return 0;
+        return 100;
     }
+
+    public boolean canClimb() {
+        return True;
+    }
+
 }
