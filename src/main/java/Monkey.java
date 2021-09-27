@@ -2,11 +2,11 @@ public class Monkey implements Domesticatable, Tradable {
 
     @Override
     public String sound() {
-        return null;
+        return "OOh OOh Ahh Ahh";
     }
 
     @Override
     public int getPrice() {
-        return 0;
+        return 100.5;
     }
 }
