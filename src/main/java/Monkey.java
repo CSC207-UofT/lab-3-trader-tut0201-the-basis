@@ -3,7 +3,7 @@ public class Monkey implements Domesticatable, Tradable {
     private boolean True;
 
     @Override
-    private String sound() {
+    public String sound() {
         return "OOh OOh Ahh Ahh";
     }
 
